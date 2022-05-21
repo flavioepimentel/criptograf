@@ -1,0 +1,163 @@
+body {
+  background-color: #e5e5e5;
+  color: #0a3871;
+}
+
+.logo {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+
+textarea {
+  background-color: #e5e5e5;
+  color: #0a3871;
+  border-radius: 8px;
+  border-color: #859aa8;
+  resize: none;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 220px;
+  top: 140px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+.alert-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 252px;
+  height: 18px;
+  left: 230px;
+  top: 76%;
+  bottom: 156;
+}
+
+.alert {
+  /* Apenas letras minúsculas e sem acento. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #495057;
+}
+
+output {
+  position: absolute;
+  background-color: #ffffff;
+  width: 65%;
+  height: 80%;
+  max-width: 350px;
+  max-height: 884px;
+  right: 35%;
+  left: 950px;
+  top: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 5px 2px rgb(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: -1;
+}
+
+.copy {
+  position: absolute;
+  padding: 24px;
+  width: 328px;
+  height: 67px;
+  background: #d8dfe8;
+
+  border-radius: 24px;
+  left: 980px;
+  visibility: hidden;
+}
+
+div.imagem-texto {
+  visibility: visible;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  width: 65%;
+  height: 80%;
+  max-width: 350px;
+  max-height: 884px;
+  right: 35%;
+  left: 950px;
+  top: 20px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+div.buttons {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: flex-start;
+  padding: 24px;
+  top: 76%;
+  gap: 24px;
+  left: 200px;
+  box-sizing: border-box;
+}
+
+.criptografar {
+  /* Auto layout */
+  justify-content: space-around;
+  width: 328px;
+  height: 67px;
+
+  /* Dark blue/dark-blue-300 */
+
+  background: #0a3871;
+  border-radius: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.descriptografar {
+  /* Button */
+  /* Auto layout */
+  justify-content: space-around;
+
+  width: 328px;
+  height: 67px;
+
+  /* Light gray */
+
+  background: #d8dfe8;
+  /* Dark blue/dark-blue-300 */
+
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+@media only screen and (max-width: 820) {
+  output {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    margin: auto;
+    left: 40px;
+    top: 1001px;
+    gap: 32px;
+  }
+}

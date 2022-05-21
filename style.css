@@ -14,7 +14,7 @@ textarea {
   color: #0a3871;
   border-radius: 8px;
   border-color: #859aa8;
-  resize:none;
+  resize: none;
   position: absolute;
   width: 50%;
   height: 50%;
@@ -44,51 +44,54 @@ textarea {
 
 .alert {
   /* Apenas letras minúsculas e sem acento. */
-
-  /* width: 228px;
-  height: 18px; */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
-  /* identical to box height, or 18px */
-
-  /* Gray/gray-400 */
-
   color: #495057;
 }
 
 output {
-  position:absolute;
-
-  background-color: #FFFFFF;
+  position: absolute;
+  background-color: #ffffff;
   width: 65%;
   height: 80%;
   max-width: 350px;
   max-height: 884px;
   right: 35%;
   left: 950px;
-  top:20px;
+  top: 20px;
   border-radius: 8px;
   box-shadow: 2px 5px 2px rgb(0, 0, 0, 0.1);
   padding: 20px;
   z-index: -1;
-  
+}
 
+.copy {
+  position: absolute;
+  padding: 24px;
+  width: 328px;
+  height: 67px;
+  background: #d8dfe8;
+
+  border-radius: 24px;
+  left: 980px;
+  visibility: hidden;
 }
 
 div.imagem-texto {
+  visibility: visible;
   position: relative;
   text-align: center;
+  align-items: center;
   width: 65%;
   height: 80%;
   max-width: 350px;
   max-height: 884px;
   right: 35%;
   left: 950px;
-  top:20px;
+  top: 20px;
   border-radius: 8px;
   padding: 20px;
 }
@@ -101,7 +104,7 @@ div.buttons {
   padding: 24px;
   top: 76%;
   gap: 24px;
-  left:200px;
+  left: 200px;
   box-sizing: border-box;
 }
 
@@ -156,7 +159,5 @@ div.buttons {
     left: 40px;
     top: 1001px;
     gap: 32px;
- 
   }
 }
-
